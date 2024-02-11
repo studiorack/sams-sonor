@@ -1,0 +1,1192 @@
+<?xml version="1.0"?>
+<control>
+	<opcode name="default_path" value="Samples/" />
+	<opcode name="label_cc7" value="Master Vol" />
+	<opcode name="label_cc10" value="Master Pan" />
+	<opcode name="label_cc20" value="Kick" />
+	<opcode name="label_cc21" value="Snare" />
+	<opcode name="label_cc22" value="TomHigh" />
+	<opcode name="label_cc23" value="TomLow" />
+	<opcode name="label_cc24" value="Hihat" />
+	<opcode name="label_cc25" value="Ride" />
+	<opcode name="label_cc26" value="Crash" />
+	<opcode name="label_cc27" value="Pan Kick" />
+	<opcode name="label_cc28" value="Pan Snare" />
+	<opcode name="label_cc29" value="Pan TomHigh" />
+	<opcode name="label_cc30" value="Pan TomLow" />
+	<opcode name="label_cc31" value="Pan Hihat" />
+	<opcode name="label_cc32" value="Pan Ride" />
+	<opcode name="label_cc33" value="Pan Crash" />
+	<opcode name="label_cc98" value="Tightness" />
+	<opcode name="set_cc7" value="100" />
+	<opcode name="set_hdcc10" value="0.5" />
+	<opcode name="set_hdcc20" value="0.5" />
+	<opcode name="set_hdcc21" value="0.5" />
+	<opcode name="set_hdcc22" value="0.5" />
+	<opcode name="set_hdcc23" value="0.5" />
+	<opcode name="set_hdcc24" value="0.5" />
+	<opcode name="set_hdcc25" value="0.5" />
+	<opcode name="set_hdcc26" value="0.5" />
+	<opcode name="set_hdcc27" value="0.5" />
+	<opcode name="set_hdcc28" value="0.5" />
+	<opcode name="set_hdcc29" value="0.5" />
+	<opcode name="set_hdcc30" value="0.5" />
+	<opcode name="set_hdcc31" value="0.5" />
+	<opcode name="set_hdcc32" value="0.5" />
+	<opcode name="set_hdcc33" value="0.5" />
+	<opcode name="set_hdcc98" value="1" />
+</control>
+<global>
+	<opcode name="loop_mode" value="one_shot" />
+	<opcode name="amplitude_oncc7" value="100" />
+	<opcode name="amplitude_curvecc7" value="4" />
+	<opcode name="pan_oncc10" value="100" />
+	<opcode name="pan_curvecc10" value="1" />
+</global>
+<master>
+	<opcode name="master_label" value="Kick" />
+	<opcode name="locc20" value="1" />
+	<opcode name="amplitude_oncc20" value="200" />
+	<opcode name="pan_oncc27" value="100" />
+	<opcode name="pan_curvecc27" value="1" />
+	<opcode name="note_polyphony" value="1" />
+	<opcode name="off_time" value="1.5" />
+	<opcode name="group" value="1" />
+</master>
+<group>
+	<opcode name="key" value="36" />
+	<opcode name="group_label" value="Center" />
+</group>
+<region>
+	<opcode name="region_label" value="V01" />
+	<opcode name="sample" value="KickSamples.ogg" />
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="30" />
+	<opcode name="amp_velcurve_30" value="1" />
+	<opcode name="offset_oncc98" value="1070" />
+</region>
+<region>
+	<opcode name="region_label" value="V02" />
+	<opcode name="sample" value="KickSamples#1.ogg" />
+	<opcode name="lovel" value="31" />
+	<opcode name="hivel" value="45" />
+	<opcode name="amp_velcurve_45" value="1" />
+	<opcode name="offset_oncc98" value="546" />
+</region>
+<region>
+	<opcode name="region_label" value="V03" />
+	<opcode name="sample" value="KickSamples#2.ogg" />
+	<opcode name="lovel" value="46" />
+	<opcode name="hivel" value="55" />
+	<opcode name="amp_velcurve_55" value="1" />
+	<opcode name="offset_oncc98" value="306" />
+</region>
+<region>
+	<opcode name="region_label" value="V04" />
+	<opcode name="sample" value="KickSamples#3.ogg" />
+	<opcode name="lovel" value="56" />
+	<opcode name="hivel" value="69" />
+	<opcode name="amp_velcurve_69" value="1" />
+	<opcode name="offset_oncc98" value="420" />
+</region>
+<region>
+	<opcode name="region_label" value="V05" />
+	<opcode name="sample" value="KickSamples#4.ogg" />
+	<opcode name="lovel" value="70" />
+	<opcode name="hivel" value="90" />
+	<opcode name="amp_velcurve_90" value="1" />
+	<opcode name="offset_oncc98" value="384" />
+</region>
+<region>
+	<opcode name="region_label" value="V06" />
+	<opcode name="sample" value="KickSamples#5.ogg" />
+	<opcode name="lovel" value="91" />
+	<opcode name="hivel" value="100" />
+	<opcode name="amp_velcurve_100" value="1" />
+	<opcode name="offset_oncc98" value="912" />
+</region>
+<region>
+	<opcode name="region_label" value="V07" />
+	<opcode name="sample" value="KickSamples#6.ogg" />
+	<opcode name="lovel" value="101" />
+	<opcode name="hivel" value="111" />
+	<opcode name="amp_velcurve_111" value="1" />
+	<opcode name="offset_oncc98" value="513" />
+</region>
+<region>
+	<opcode name="region_label" value="V08" />
+	<opcode name="sample" value="KickSamples#7.ogg" />
+	<opcode name="lovel" value="112" />
+	<opcode name="hivel" value="127" />
+	<opcode name="amp_velcurve_127" value="1" />
+	<opcode name="offset_oncc98" value="450" />
+</region>
+<master>
+	<opcode name="master_label" value="Snare" />
+	<opcode name="locc21" value="1" />
+	<opcode name="amplitude_oncc21" value="200" />
+	<opcode name="pan_oncc28" value="100" />
+	<opcode name="pan_curvecc28" value="1" />
+	<opcode name="note_polyphony" value="1" />
+	<opcode name="off_time" value="1.5" />
+	<opcode name="group" value="2" />
+</master>
+<group>
+	<opcode name="key" value="38" />
+	<opcode name="group_volume" value="-3.8" />
+	<opcode name="group_label" value="Left Hand" />
+</group>
+<region>
+	<opcode name="region_label" value="V01" />
+	<opcode name="sample" value="SnareLeftHand.ogg" />
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="50" />
+	<opcode name="amp_velcurve_50" value="1" />
+	<opcode name="offset_oncc98" value="655" />
+</region>
+<region>
+	<opcode name="region_label" value="V02" />
+	<opcode name="sample" value="SnareLeftHand#1.ogg" />
+	<opcode name="lovel" value="51" />
+	<opcode name="hivel" value="60" />
+	<opcode name="amp_velcurve_60" value="1" />
+	<opcode name="offset_oncc98" value="713" />
+</region>
+<region>
+	<opcode name="region_label" value="V03" />
+	<opcode name="sample" value="SnareLeftHand#2.ogg" />
+	<opcode name="lovel" value="61" />
+	<opcode name="hivel" value="70" />
+	<opcode name="amp_velcurve_70" value="1" />
+	<opcode name="offset_oncc98" value="214" />
+</region>
+<region>
+	<opcode name="region_label" value="V04" />
+	<opcode name="sample" value="SnareLeftHand#3.ogg" />
+	<opcode name="lovel" value="71" />
+	<opcode name="hivel" value="80" />
+	<opcode name="amp_velcurve_80" value="1" />
+	<opcode name="offset_oncc98" value="612" />
+</region>
+<region>
+	<opcode name="region_label" value="V05" />
+	<opcode name="sample" value="SnareLeftHand#4.ogg" />
+	<opcode name="lovel" value="81" />
+	<opcode name="hivel" value="90" />
+	<opcode name="amp_velcurve_90" value="1" />
+	<opcode name="offset_oncc98" value="918" />
+</region>
+<region>
+	<opcode name="region_label" value="V06" />
+	<opcode name="sample" value="SnareLeftHand#5.ogg" />
+	<opcode name="lovel" value="91" />
+	<opcode name="hivel" value="100" />
+	<opcode name="amp_velcurve_100" value="1" />
+	<opcode name="offset_oncc98" value="577" />
+</region>
+<region>
+	<opcode name="region_label" value="V07" />
+	<opcode name="sample" value="SnareLeftHand#6.ogg" />
+	<opcode name="lovel" value="101" />
+	<opcode name="hivel" value="107" />
+	<opcode name="amp_velcurve_107" value="1" />
+	<opcode name="offset_oncc98" value="458" />
+</region>
+<region>
+	<opcode name="region_label" value="V08" />
+	<opcode name="sample" value="SnareLeftHand#7.ogg" />
+	<opcode name="lovel" value="108" />
+	<opcode name="hivel" value="115" />
+	<opcode name="amp_velcurve_115" value="1" />
+	<opcode name="offset_oncc98" value="662" />
+</region>
+<region>
+	<opcode name="region_label" value="V09" />
+	<opcode name="sample" value="SnareLeftHand#8.ogg" />
+	<opcode name="lovel" value="116" />
+	<opcode name="hivel" value="120" />
+	<opcode name="amp_velcurve_120" value="1" />
+	<opcode name="offset_oncc98" value="327" />
+</region>
+<region>
+	<opcode name="region_label" value="V10" />
+	<opcode name="sample" value="SnareLeftHand#9.ogg" />
+	<opcode name="lovel" value="121" />
+	<opcode name="hivel" value="127" />
+	<opcode name="amp_velcurve_127" value="1" />
+	<opcode name="offset_oncc98" value="814" />
+</region>
+<group>
+	<opcode name="key" value="40" />
+	<opcode name="group_volume" value="-3.8" />
+	<opcode name="group_label" value="Right Hand" />
+</group>
+<region>
+	<opcode name="region_label" value="V01" />
+	<opcode name="sample" value="SnareRightHand.ogg" />
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="50" />
+	<opcode name="amp_velcurve_50" value="1" />
+	<opcode name="offset_oncc98" value="216" />
+</region>
+<region>
+	<opcode name="region_label" value="V02" />
+	<opcode name="sample" value="SnareRightHand#1.ogg" />
+	<opcode name="lovel" value="51" />
+	<opcode name="hivel" value="60" />
+	<opcode name="amp_velcurve_60" value="1" />
+	<opcode name="offset_oncc98" value="165" />
+</region>
+<region>
+	<opcode name="region_label" value="V03" />
+	<opcode name="sample" value="SnareRightHand#2.ogg" />
+	<opcode name="lovel" value="61" />
+	<opcode name="hivel" value="70" />
+	<opcode name="amp_velcurve_70" value="1" />
+	<opcode name="offset_oncc98" value="221" />
+</region>
+<region>
+	<opcode name="region_label" value="V04" />
+	<opcode name="sample" value="SnareRightHand#3.ogg" />
+	<opcode name="lovel" value="71" />
+	<opcode name="hivel" value="80" />
+	<opcode name="amp_velcurve_80" value="1" />
+	<opcode name="offset_oncc98" value="445" />
+</region>
+<region>
+	<opcode name="region_label" value="V05" />
+	<opcode name="sample" value="SnareRightHand#4.ogg" />
+	<opcode name="lovel" value="81" />
+	<opcode name="hivel" value="90" />
+	<opcode name="amp_velcurve_90" value="1" />
+	<opcode name="offset_oncc98" value="338" />
+</region>
+<region>
+	<opcode name="region_label" value="V06" />
+	<opcode name="sample" value="SnareRightHand#5.ogg" />
+	<opcode name="lovel" value="91" />
+	<opcode name="hivel" value="100" />
+	<opcode name="amp_velcurve_100" value="1" />
+	<opcode name="offset_oncc98" value="442" />
+</region>
+<region>
+	<opcode name="region_label" value="V07" />
+	<opcode name="sample" value="SnareRightHand#7.ogg" />
+	<opcode name="lovel" value="101" />
+	<opcode name="hivel" value="107" />
+	<opcode name="amp_velcurve_107" value="1" />
+	<opcode name="offset_oncc98" value="639" />
+</region>
+<region>
+	<opcode name="region_label" value="V08" />
+	<opcode name="sample" value="SnareRightHand#6.ogg" />
+	<opcode name="lovel" value="108" />
+	<opcode name="hivel" value="115" />
+	<opcode name="amp_velcurve_115" value="1" />
+	<opcode name="offset_oncc98" value="452" />
+</region>
+<region>
+	<opcode name="region_label" value="V09" />
+	<opcode name="sample" value="SnareRightHand#9.ogg" />
+	<opcode name="lovel" value="116" />
+	<opcode name="hivel" value="120" />
+	<opcode name="amp_velcurve_120" value="1" />
+	<opcode name="offset_oncc98" value="738" />
+</region>
+<region>
+	<opcode name="region_label" value="V10" />
+	<opcode name="sample" value="SnareRightHand#8.ogg" />
+	<opcode name="lovel" value="121" />
+	<opcode name="hivel" value="127" />
+	<opcode name="amp_velcurve_127" value="1" />
+	<opcode name="offset_oncc98" value="342" />
+</region>
+<group>
+	<opcode name="key" value="39" />
+	<opcode name="group_volume" value="-3.8" />
+	<opcode name="group_label" value="Center" />
+</group>
+<region>
+	<opcode name="region_label" value="V01" />
+	<opcode name="sample" value="SnareSamples#1.ogg" />
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="33" />
+	<opcode name="amp_velcurve_33" value="1" />
+	<opcode name="offset_oncc98" value="466" />
+</region>
+<region>
+	<opcode name="region_label" value="V02" />
+	<opcode name="sample" value="SnareSamples#2.ogg" />
+	<opcode name="lovel" value="34" />
+	<opcode name="hivel" value="44" />
+	<opcode name="amp_velcurve_44" value="1" />
+	<opcode name="offset_oncc98" value="247" />
+</region>
+<region>
+	<opcode name="region_label" value="V03" />
+	<opcode name="sample" value="SnareSamples#3.ogg" />
+	<opcode name="lovel" value="45" />
+	<opcode name="hivel" value="65" />
+	<opcode name="amp_velcurve_65" value="1" />
+	<opcode name="offset_oncc98" value="557" />
+</region>
+<region>
+	<opcode name="region_label" value="V04" />
+	<opcode name="sample" value="SnareSamples#4.ogg" />
+	<opcode name="lovel" value="66" />
+	<opcode name="hivel" value="77" />
+	<opcode name="amp_velcurve_77" value="1" />
+	<opcode name="offset_oncc98" value="456" />
+</region>
+<region>
+	<opcode name="region_label" value="V05" />
+	<opcode name="sample" value="SnareSamples#5.ogg" />
+	<opcode name="lovel" value="78" />
+	<opcode name="hivel" value="85" />
+	<opcode name="amp_velcurve_85" value="1" />
+	<opcode name="offset_oncc98" value="627" />
+</region>
+<region>
+	<opcode name="region_label" value="V06" />
+	<opcode name="sample" value="SnareSamples#6.ogg" />
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="96" />
+	<opcode name="amp_velcurve_96" value="1" />
+	<opcode name="offset_oncc98" value="463" />
+</region>
+<region>
+	<opcode name="region_label" value="V07" />
+	<opcode name="sample" value="SnareSamples#7.ogg" />
+	<opcode name="lovel" value="97" />
+	<opcode name="hivel" value="107" />
+	<opcode name="amp_velcurve_107" value="1" />
+	<opcode name="offset_oncc98" value="520" />
+</region>
+<region>
+	<opcode name="region_label" value="V08" />
+	<opcode name="sample" value="SnareSamples#8.ogg" />
+	<opcode name="lovel" value="108" />
+	<opcode name="hivel" value="127" />
+	<opcode name="amp_velcurve_127" value="1" />
+	<opcode name="offset_oncc98" value="757" />
+</region>
+<group>
+	<opcode name="key" value="37" />
+	<opcode name="group_volume" value="-0.4" />
+	<opcode name="group_label" value="Rimshot" />
+</group>
+<region>
+	<opcode name="region_label" value="V01" />
+	<opcode name="sample" value="SnareSamples#9.ogg" />
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="127" />
+	<opcode name="offset_oncc98" value="504" />
+</region>
+<group>
+	<opcode name="key" value="48" />
+	<opcode name="group_volume" value="-16" />
+	<opcode name="group_label" value="Off Left" />
+</group>
+<region>
+	<opcode name="region_label" value="V01" />
+	<opcode name="sample" value="SnareOffLeft.ogg" />
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="50" />
+	<opcode name="amp_velcurve_50" value="1" />
+	<opcode name="offset_oncc98" value="600" />
+</region>
+<region>
+	<opcode name="region_label" value="V02" />
+	<opcode name="sample" value="SnareOffLeft#1.ogg" />
+	<opcode name="lovel" value="51" />
+	<opcode name="hivel" value="70" />
+	<opcode name="amp_velcurve_70" value="1" />
+	<opcode name="offset_oncc98" value="977" />
+</region>
+<region>
+	<opcode name="region_label" value="V03" />
+	<opcode name="sample" value="SnareOffLeft#2.ogg" />
+	<opcode name="lovel" value="71" />
+	<opcode name="hivel" value="90" />
+	<opcode name="amp_velcurve_90" value="1" />
+	<opcode name="offset_oncc98" value="740" />
+</region>
+<region>
+	<opcode name="region_label" value="V04" />
+	<opcode name="sample" value="SnareOffLeft#3.ogg" />
+	<opcode name="lovel" value="91" />
+	<opcode name="hivel" value="110" />
+	<opcode name="amp_velcurve_110" value="1" />
+	<opcode name="offset_oncc98" value="561" />
+</region>
+<region>
+	<opcode name="region_label" value="V05" />
+	<opcode name="sample" value="SnareOffLeft#4.ogg" />
+	<opcode name="lovel" value="111" />
+	<opcode name="hivel" value="127" />
+	<opcode name="amp_velcurve_127" value="1" />
+	<opcode name="offset_oncc98" value="385" />
+</region>
+<group>
+	<opcode name="key" value="50" />
+	<opcode name="group_volume" value="-16" />
+	<opcode name="group_label" value="Off Right" />
+</group>
+<region>
+	<opcode name="region_label" value="V01" />
+	<opcode name="sample" value="SnareOffRight.ogg" />
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="50" />
+	<opcode name="amp_velcurve_50" value="1" />
+	<opcode name="offset_oncc98" value="387" />
+</region>
+<region>
+	<opcode name="region_label" value="V02" />
+	<opcode name="sample" value="SnareOffRight#1.ogg" />
+	<opcode name="lovel" value="51" />
+	<opcode name="hivel" value="70" />
+	<opcode name="amp_velcurve_70" value="1" />
+	<opcode name="offset_oncc98" value="712" />
+</region>
+<region>
+	<opcode name="region_label" value="V03" />
+	<opcode name="sample" value="SnareOffRight#2.ogg" />
+	<opcode name="lovel" value="71" />
+	<opcode name="hivel" value="90" />
+	<opcode name="amp_velcurve_90" value="1" />
+	<opcode name="offset_oncc98" value="645" />
+</region>
+<region>
+	<opcode name="region_label" value="V04" />
+	<opcode name="sample" value="SnareOffRight#3.ogg" />
+	<opcode name="lovel" value="91" />
+	<opcode name="hivel" value="110" />
+	<opcode name="amp_velcurve_110" value="1" />
+	<opcode name="offset_oncc98" value="915" />
+</region>
+<region>
+	<opcode name="region_label" value="V05" />
+	<opcode name="sample" value="SnareOffRight#4.ogg" />
+	<opcode name="lovel" value="111" />
+	<opcode name="hivel" value="127" />
+	<opcode name="amp_velcurve_127" value="1" />
+	<opcode name="offset_oncc98" value="354" />
+</region>
+<master>
+	<opcode name="master_label" value="Tom High" />
+	<opcode name="locc22" value="1" />
+	<opcode name="amplitude_oncc22" value="200" />
+	<opcode name="pan_oncc29" value="100" />
+	<opcode name="pan_curvecc29" value="1" />
+	<opcode name="note_polyphony" value="1" />
+	<opcode name="off_time" value="2" />
+</master>
+<group>
+	<opcode name="key" value="45" />
+	<opcode name="group" value="3" />
+	<opcode name="group_volume" value="-4.5" />
+	<opcode name="group_label" value="Center" />
+</group>
+<region>
+	<opcode name="region_label" value="V01" />
+	<opcode name="sample" value="TomHigh.ogg" />
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="60" />
+	<opcode name="amp_velcurve_60" value="1" />
+	<opcode name="offset_oncc98" value="324" />
+</region>
+<region>
+	<opcode name="region_label" value="V02" />
+	<opcode name="sample" value="TomHigh#1.ogg" />
+	<opcode name="lovel" value="61" />
+	<opcode name="hivel" value="85" />
+	<opcode name="amp_velcurve_85" value="1" />
+	<opcode name="offset_oncc98" value="462" />
+</region>
+<region>
+	<opcode name="region_label" value="V03" />
+	<opcode name="sample" value="TomHigh#2.ogg" />
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="105" />
+	<opcode name="amp_velcurve_105" value="1" />
+	<opcode name="offset_oncc98" value="492" />
+</region>
+<region>
+	<opcode name="region_label" value="V04" />
+	<opcode name="sample" value="TomHigh#3.ogg" />
+	<opcode name="lovel" value="106" />
+	<opcode name="hivel" value="110" />
+	<opcode name="amp_velcurve_110" value="1" />
+	<opcode name="offset_oncc98" value="420" />
+</region>
+<region>
+	<opcode name="region_label" value="V05" />
+	<opcode name="sample" value="TomHigh#4.ogg" />
+	<opcode name="lovel" value="111" />
+	<opcode name="hivel" value="127" />
+	<opcode name="amp_velcurve_127" value="1" />
+	<opcode name="offset_oncc98" value="501" />
+</region>
+<group>
+	<opcode name="key" value="47" />
+	<opcode name="group" value="4" />
+	<opcode name="group_volume" value="-11.1" />
+	<opcode name="group_label" value="Clicks" />
+</group>
+<region>
+	<opcode name="region_label" value="V01" />
+	<opcode name="sample" value="TomClicks.ogg" />
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="70" />
+	<opcode name="amp_velcurve_70" value="1" />
+	<opcode name="offset_oncc98" value="324" />
+</region>
+<region>
+	<opcode name="region_label" value="V02" />
+	<opcode name="sample" value="TomClicks#1.ogg" />
+	<opcode name="lovel" value="71" />
+	<opcode name="hivel" value="85" />
+	<opcode name="amp_velcurve_85" value="1" />
+	<opcode name="offset_oncc98" value="286" />
+</region>
+<region>
+	<opcode name="region_label" value="V03" />
+	<opcode name="sample" value="TomClicks#2.ogg" />
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="105" />
+	<opcode name="amp_velcurve_105" value="1" />
+	<opcode name="offset_oncc98" value="646" />
+</region>
+<region>
+	<opcode name="region_label" value="V04" />
+	<opcode name="sample" value="TomClicks#3.ogg" />
+	<opcode name="lovel" value="106" />
+	<opcode name="hivel" value="115" />
+	<opcode name="amp_velcurve_115" value="1" />
+	<opcode name="offset_oncc98" value="446" />
+</region>
+<region>
+	<opcode name="region_label" value="V05" />
+	<opcode name="sample" value="TomClicks#4.ogg" />
+	<opcode name="lovel" value="116" />
+	<opcode name="hivel" value="127" />
+	<opcode name="amp_velcurve_127" value="1" />
+	<opcode name="offset_oncc98" value="278" />
+</region>
+<master>
+	<opcode name="master_label" value="Tom Low" />
+	<opcode name="locc23" value="1" />
+	<opcode name="amplitude_oncc23" value="200" />
+	<opcode name="pan_oncc30" value="100" />
+	<opcode name="pan_curvecc30" value="1" />
+	<opcode name="note_polyphony" value="1" />
+	<opcode name="off_time" value="3" />
+	<opcode name="group" value="5" />
+</master>
+<group>
+	<opcode name="key" value="43" />
+	<opcode name="group_volume" value="-6" />
+	<opcode name="group_label" value="Center" />
+</group>
+<region>
+	<opcode name="region_label" value="V01" />
+	<opcode name="sample" value="TomLow.ogg" />
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="50" />
+	<opcode name="amp_velcurve_50" value="1" />
+	<opcode name="offset_oncc98" value="223" />
+</region>
+<region>
+	<opcode name="region_label" value="V02" />
+	<opcode name="sample" value="TomLow#1.ogg" />
+	<opcode name="lovel" value="51" />
+	<opcode name="hivel" value="65" />
+	<opcode name="amp_velcurve_65" value="1" />
+	<opcode name="offset_oncc98" value="452" />
+</region>
+<region>
+	<opcode name="region_label" value="V03" />
+	<opcode name="sample" value="TomLow#2.ogg" />
+	<opcode name="lovel" value="66" />
+	<opcode name="hivel" value="80" />
+	<opcode name="amp_velcurve_80" value="1" />
+	<opcode name="offset_oncc98" value="381" />
+</region>
+<region>
+	<opcode name="region_label" value="V04" />
+	<opcode name="sample" value="TomLow#3.ogg" />
+	<opcode name="lovel" value="81" />
+	<opcode name="hivel" value="95" />
+	<opcode name="amp_velcurve_95" value="1" />
+	<opcode name="offset_oncc98" value="342" />
+</region>
+<region>
+	<opcode name="region_label" value="V05" />
+	<opcode name="sample" value="TomLow#4.ogg" />
+	<opcode name="lovel" value="96" />
+	<opcode name="hivel" value="105" />
+	<opcode name="amp_velcurve_105" value="1" />
+	<opcode name="offset_oncc98" value="311" />
+</region>
+<region>
+	<opcode name="region_label" value="V06" />
+	<opcode name="sample" value="TomLow#5.ogg" />
+	<opcode name="lovel" value="106" />
+	<opcode name="hivel" value="115" />
+	<opcode name="amp_velcurve_115" value="1" />
+	<opcode name="offset_oncc98" value="423" />
+</region>
+<region>
+	<opcode name="region_label" value="V07" />
+	<opcode name="sample" value="TomLow#6.ogg" />
+	<opcode name="lovel" value="116" />
+	<opcode name="hivel" value="127" />
+	<opcode name="amp_velcurve_127" value="1" />
+	<opcode name="offset_oncc98" value="493" />
+</region>
+<master>
+	<opcode name="master_label" value="Hihat" />
+	<opcode name="locc24" value="1" />
+	<opcode name="amplitude_oncc24" value="200" />
+	<opcode name="pan_oncc31" value="100" />
+	<opcode name="pan_curvecc31" value="1" />
+	<opcode name="note_polyphony" value="3" />
+	<opcode name="off_time" value="0.3" />
+</master>
+<group>
+	<opcode name="key" value="42" />
+	<opcode name="group" value="7" />
+	<opcode name="off_by" value="8" />
+	<opcode name="group_volume" value="-7.5" />
+	<opcode name="group_label" value="Closed" />
+</group>
+<region>
+	<opcode name="region_label" value="V01" />
+	<opcode name="sample" value="HHClosed#1.ogg" />
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="60" />
+	<opcode name="amp_velcurve_60" value="1" />
+	<opcode name="offset_oncc98" value="235" />
+</region>
+<region>
+	<opcode name="region_label" value="V02" />
+	<opcode name="sample" value="HHClosed.ogg" />
+	<opcode name="lovel" value="61" />
+	<opcode name="hivel" value="79" />
+	<opcode name="amp_velcurve_79" value="1" />
+	<opcode name="offset_oncc98" value="193" />
+</region>
+<region>
+	<opcode name="region_label" value="V03" />
+	<opcode name="sample" value="HHClosed#3.ogg" />
+	<opcode name="lovel" value="80" />
+	<opcode name="hivel" value="95" />
+	<opcode name="amp_velcurve_95" value="1" />
+	<opcode name="offset_oncc98" value="265" />
+</region>
+<region>
+	<opcode name="region_label" value="V04" />
+	<opcode name="sample" value="HHClosed#2.ogg" />
+	<opcode name="lovel" value="96" />
+	<opcode name="hivel" value="100" />
+	<opcode name="amp_velcurve_100" value="1" />
+	<opcode name="offset_oncc98" value="197" />
+</region>
+<region>
+	<opcode name="region_label" value="V05" />
+	<opcode name="sample" value="HHClosed#7.ogg" />
+	<opcode name="lovel" value="101" />
+	<opcode name="hivel" value="105" />
+	<opcode name="amp_velcurve_105" value="1" />
+	<opcode name="offset_oncc98" value="198" />
+</region>
+<region>
+	<opcode name="region_label" value="V06" />
+	<opcode name="sample" value="HHClosed#5.ogg" />
+	<opcode name="lovel" value="106" />
+	<opcode name="hivel" value="112" />
+	<opcode name="amp_velcurve_112" value="1" />
+	<opcode name="offset_oncc98" value="265" />
+</region>
+<region>
+	<opcode name="region_label" value="V07" />
+	<opcode name="sample" value="HHClosed#4.ogg" />
+	<opcode name="lovel" value="113" />
+	<opcode name="hivel" value="120" />
+	<opcode name="amp_velcurve_120" value="1" />
+	<opcode name="offset_oncc98" value="338" />
+</region>
+<region>
+	<opcode name="region_label" value="V08" />
+	<opcode name="sample" value="HHClosed#6.ogg" />
+	<opcode name="lovel" value="121" />
+	<opcode name="hivel" value="124" />
+	<opcode name="amp_velcurve_124" value="1" />
+	<opcode name="offset_oncc98" value="308" />
+</region>
+<region>
+	<opcode name="region_label" value="V09" />
+	<opcode name="sample" value="HHClosed#8.ogg" />
+	<opcode name="lovel" value="125" />
+	<opcode name="hivel" value="127" />
+	<opcode name="amp_velcurve_127" value="1" />
+	<opcode name="offset_oncc98" value="355" />
+</region>
+<group>
+	<opcode name="key" value="44" />
+	<opcode name="group" value="6" />
+	<opcode name="group_label" value="Pedal" />
+</group>
+<region>
+	<opcode name="region_label" value="V01" />
+	<opcode name="sample" value="HHPedal.ogg" />
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="50" />
+	<opcode name="amp_velcurve_50" value="1" />
+</region>
+<region>
+	<opcode name="region_label" value="V02" />
+	<opcode name="sample" value="HHPedal#1.ogg" />
+	<opcode name="lovel" value="51" />
+	<opcode name="hivel" value="70" />
+	<opcode name="amp_velcurve_70" value="1" />
+</region>
+<region>
+	<opcode name="region_label" value="V03" />
+	<opcode name="sample" value="HHPedal#2.ogg" />
+	<opcode name="lovel" value="71" />
+	<opcode name="hivel" value="90" />
+	<opcode name="amp_velcurve_90" value="1" />
+</region>
+<region>
+	<opcode name="region_label" value="V04" />
+	<opcode name="sample" value="HHPedal#3.ogg" />
+	<opcode name="lovel" value="91" />
+	<opcode name="hivel" value="110" />
+	<opcode name="amp_velcurve_110" value="1" />
+</region>
+<region>
+	<opcode name="region_label" value="V05" />
+	<opcode name="sample" value="HHPedal#4.ogg" />
+	<opcode name="lovel" value="111" />
+	<opcode name="hivel" value="119" />
+	<opcode name="amp_velcurve_119" value="1" />
+</region>
+<region>
+	<opcode name="region_label" value="V06" />
+	<opcode name="sample" value="HHPedal#5.ogg" />
+	<opcode name="lovel" value="120" />
+	<opcode name="hivel" value="127" />
+	<opcode name="amp_velcurve_127" value="1" />
+</region>
+<group>
+	<opcode name="key" value="46" />
+	<opcode name="group" value="13" />
+	<opcode name="off_by" value="14" />
+	<opcode name="group_volume" value="-7.5" />
+	<opcode name="group_label" value="Open Clang" />
+</group>
+<region>
+	<opcode name="region_label" value="V01" />
+	<opcode name="sample" value="HHOpenClang#3.ogg" />
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="80" />
+	<opcode name="amp_velcurve_80" value="1" />
+	<opcode name="offset_oncc98" value="396" />
+</region>
+<region>
+	<opcode name="region_label" value="V02" />
+	<opcode name="sample" value="HHOpenClang#4.ogg" />
+	<opcode name="lovel" value="81" />
+	<opcode name="hivel" value="89" />
+	<opcode name="amp_velcurve_89" value="1" />
+	<opcode name="offset_oncc98" value="400" />
+</region>
+<region>
+	<opcode name="region_label" value="V03" />
+	<opcode name="sample" value="HHOpenClang#2.ogg" />
+	<opcode name="lovel" value="90" />
+	<opcode name="hivel" value="100" />
+	<opcode name="amp_velcurve_100" value="1" />
+	<opcode name="offset_oncc98" value="376" />
+</region>
+<region>
+	<opcode name="region_label" value="V04" />
+	<opcode name="sample" value="HHOpenClang.ogg" />
+	<opcode name="lovel" value="101" />
+	<opcode name="hivel" value="110" />
+	<opcode name="amp_velcurve_110" value="1" />
+	<opcode name="offset_oncc98" value="276" />
+</region>
+<region>
+	<opcode name="region_label" value="V05" />
+	<opcode name="sample" value="HHOpenClang#1.ogg" />
+	<opcode name="lovel" value="111" />
+	<opcode name="hivel" value="127" />
+	<opcode name="amp_velcurve_127" value="1" />
+	<opcode name="offset_oncc98" value="335" />
+</region>
+<group>
+	<opcode name="key" value="56" />
+	<opcode name="group" value="9" />
+	<opcode name="off_by" value="10" />
+	<opcode name="group_volume" value="-8.2" />
+	<opcode name="group_label" value="Half Open" />
+</group>
+<region>
+	<opcode name="region_label" value="V01" />
+	<opcode name="sample" value="HHHalfOpen.ogg" />
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="60" />
+	<opcode name="amp_velcurve_60" value="1" />
+	<opcode name="offset_oncc98" value="230" />
+</region>
+<region>
+	<opcode name="region_label" value="V02" />
+	<opcode name="sample" value="HHHalfOpen#1.ogg" />
+	<opcode name="lovel" value="61" />
+	<opcode name="hivel" value="85" />
+	<opcode name="amp_velcurve_85" value="1" />
+	<opcode name="offset_oncc98" value="238" />
+</region>
+<region>
+	<opcode name="region_label" value="V03" />
+	<opcode name="sample" value="HHHalfOpen#2.ogg" />
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="96" />
+	<opcode name="amp_velcurve_96" value="1" />
+	<opcode name="offset_oncc98" value="248" />
+</region>
+<region>
+	<opcode name="region_label" value="V04" />
+	<opcode name="sample" value="HHHalfOpen#4.ogg" />
+	<opcode name="lovel" value="97" />
+	<opcode name="hivel" value="105" />
+	<opcode name="amp_velcurve_105" value="1" />
+	<opcode name="offset_oncc98" value="287" />
+</region>
+<region>
+	<opcode name="region_label" value="V05" />
+	<opcode name="sample" value="HHHalfOpen#5.ogg" />
+	<opcode name="lovel" value="106" />
+	<opcode name="hivel" value="111" />
+	<opcode name="amp_velcurve_111" value="1" />
+	<opcode name="offset_oncc98" value="409" />
+</region>
+<region>
+	<opcode name="region_label" value="V06" />
+	<opcode name="sample" value="HHHalfOpen#3.ogg" />
+	<opcode name="lovel" value="112" />
+	<opcode name="hivel" value="118" />
+	<opcode name="amp_velcurve_118" value="1" />
+	<opcode name="offset_oncc98" value="419" />
+</region>
+<region>
+	<opcode name="region_label" value="V07" />
+	<opcode name="sample" value="HHHalfOpen#6.ogg" />
+	<opcode name="lovel" value="119" />
+	<opcode name="hivel" value="123" />
+	<opcode name="amp_velcurve_123" value="1" />
+	<opcode name="offset_oncc98" value="370" />
+</region>
+<region>
+	<opcode name="region_label" value="V08" />
+	<opcode name="sample" value="HHHalfOpen#7.ogg" />
+	<opcode name="lovel" value="124" />
+	<opcode name="hivel" value="127" />
+	<opcode name="amp_velcurve_127" value="1" />
+	<opcode name="offset_oncc98" value="1221" />
+</region>
+<group>
+	<opcode name="key" value="58" />
+	<opcode name="group" value="11" />
+	<opcode name="off_by" value="12" />
+	<opcode name="group_volume" value="-2.6" />
+	<opcode name="group_label" value="Open Tip" />
+</group>
+<region>
+	<opcode name="region_label" value="V01" />
+	<opcode name="sample" value="HHOpenTip.ogg" />
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="80" />
+	<opcode name="amp_velcurve_80" value="1" />
+	<opcode name="offset_oncc98" value="226" />
+</region>
+<region>
+	<opcode name="region_label" value="V02" />
+	<opcode name="sample" value="HHOpenTip#1.ogg" />
+	<opcode name="lovel" value="81" />
+	<opcode name="hivel" value="99" />
+	<opcode name="amp_velcurve_99" value="1" />
+	<opcode name="offset_oncc98" value="206" />
+</region>
+<region>
+	<opcode name="region_label" value="V03" />
+	<opcode name="sample" value="HHOpenTip#2.ogg" />
+	<opcode name="lovel" value="100" />
+	<opcode name="hivel" value="115" />
+	<opcode name="amp_velcurve_115" value="1" />
+	<opcode name="offset_oncc98" value="232" />
+</region>
+<region>
+	<opcode name="region_label" value="V04" />
+	<opcode name="sample" value="HHOpenTip#3.ogg" />
+	<opcode name="lovel" value="116" />
+	<opcode name="hivel" value="127" />
+	<opcode name="amp_velcurve_127" value="1" />
+	<opcode name="offset_oncc98" value="230" />
+</region>
+<group>
+	<opcode name="end" value="-1" />
+	<opcode name="sample" value="*silence" />
+</group>
+<region>
+	<opcode name="key" value="42" />
+	<opcode name="group" value="10" />
+</region>
+<region>
+	<opcode name="key" value="42" />
+	<opcode name="group" value="12" />
+</region>
+<region>
+	<opcode name="key" value="42" />
+	<opcode name="group" value="14" />
+</region>
+<region>
+	<opcode name="key" value="44" />
+	<opcode name="group" value="8" />
+</region>
+<region>
+	<opcode name="key" value="44" />
+	<opcode name="group" value="10" />
+</region>
+<region>
+	<opcode name="key" value="44" />
+	<opcode name="group" value="12" />
+</region>
+<region>
+	<opcode name="key" value="44" />
+	<opcode name="group" value="14" />
+</region>
+<region>
+	<opcode name="key" value="56" />
+	<opcode name="group" value="12" />
+</region>
+<region>
+	<opcode name="key" value="56" />
+	<opcode name="group" value="14" />
+</region>
+<region>
+	<opcode name="key" value="58" />
+	<opcode name="group" value="14" />
+</region>
+<master>
+	<opcode name="master_label" value="Ride" />
+	<opcode name="locc25" value="1" />
+	<opcode name="amplitude_oncc25" value="200" />
+	<opcode name="pan_oncc32" value="100" />
+	<opcode name="pan_curvecc32" value="1" />
+	<opcode name="note_polyphony" value="4" />
+	<opcode name="off_shape" value="-3" />
+	<opcode name="off_time" value="0.5" />
+</master>
+<group>
+	<opcode name="key" value="51" />
+	<opcode name="group" value="15" />
+	<opcode name="off_by" value="17" />
+	<opcode name="group_volume" value="-13.4" />
+	<opcode name="group_label" value="Tip" />
+</group>
+<region>
+	<opcode name="region_label" value="V01" />
+	<opcode name="sample" value="Ride.ogg" />
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="60" />
+	<opcode name="amp_velcurve_60" value="1" />
+	<opcode name="offset_oncc98" value="474" />
+</region>
+<region>
+	<opcode name="region_label" value="V02" />
+	<opcode name="sample" value="Ride#1.ogg" />
+	<opcode name="lovel" value="61" />
+	<opcode name="hivel" value="81" />
+	<opcode name="amp_velcurve_81" value="1" />
+	<opcode name="offset_oncc98" value="444" />
+</region>
+<region>
+	<opcode name="region_label" value="V03" />
+	<opcode name="sample" value="Ride#2.ogg" />
+	<opcode name="lovel" value="82" />
+	<opcode name="hivel" value="95" />
+	<opcode name="amp_velcurve_95" value="1" />
+	<opcode name="offset_oncc98" value="553" />
+</region>
+<region>
+	<opcode name="region_label" value="V04" />
+	<opcode name="sample" value="Ride#3.ogg" />
+	<opcode name="lovel" value="96" />
+	<opcode name="hivel" value="110" />
+	<opcode name="amp_velcurve_110" value="1" />
+	<opcode name="offset_oncc98" value="367" />
+</region>
+<region>
+	<opcode name="region_label" value="V05" />
+	<opcode name="sample" value="Ride#4.ogg" />
+	<opcode name="lovel" value="111" />
+	<opcode name="hivel" value="127" />
+	<opcode name="amp_velcurve_127" value="1" />
+	<opcode name="offset_oncc98" value="459" />
+</region>
+<group>
+	<opcode name="key" value="53" />
+	<opcode name="group" value="16" />
+	<opcode name="off_by" value="17" />
+	<opcode name="group_volume" value="-4.6" />
+	<opcode name="group_label" value="Bell" />
+</group>
+<region>
+	<opcode name="region_label" value="V01" />
+	<opcode name="sample" value="RideBell.ogg" />
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="70" />
+	<opcode name="amp_velcurve_70" value="1" />
+	<opcode name="offset_oncc98" value="596" />
+</region>
+<region>
+	<opcode name="region_label" value="V02" />
+	<opcode name="sample" value="RideBell#1.ogg" />
+	<opcode name="lovel" value="71" />
+	<opcode name="hivel" value="85" />
+	<opcode name="amp_velcurve_85" value="1" />
+	<opcode name="offset_oncc98" value="656" />
+</region>
+<region>
+	<opcode name="region_label" value="V03" />
+	<opcode name="sample" value="RideBell#2.ogg" />
+	<opcode name="lovel" value="86" />
+	<opcode name="hivel" value="105" />
+	<opcode name="amp_velcurve_105" value="1" />
+	<opcode name="offset_oncc98" value="623" />
+</region>
+<region>
+	<opcode name="region_label" value="V04" />
+	<opcode name="sample" value="RideBell#3.ogg" />
+	<opcode name="lovel" value="106" />
+	<opcode name="hivel" value="127" />
+	<opcode name="amp_velcurve_127" value="1" />
+	<opcode name="offset_oncc98" value="592" />
+</region>
+<group>
+	<opcode name="key" value="60" />
+	<opcode name="group" value="17" />
+	<opcode name="ampeg_sustain" value="0" />
+	<opcode name="group_label" value="choke" />
+</group>
+<region>
+	<opcode name="sample" value="*silence" />
+</region>
+<master>
+	<opcode name="master_label" value="Crash" />
+	<opcode name="locc26" value="1" />
+	<opcode name="amplitude_oncc26" value="200" />
+	<opcode name="pan_oncc33" value="100" />
+	<opcode name="pan_curvecc33" value="1" />
+	<opcode name="note_polyphony" value="4" />
+	<opcode name="off_shape" value="-3" />
+	<opcode name="off_time" value="0.3" />
+</master>
+<group>
+	<opcode name="key" value="49" />
+	<opcode name="group" value="18" />
+	<opcode name="off_by" value="20" />
+	<opcode name="group_volume" value="-1.1" />
+	<opcode name="group_label" value="Clang" />
+</group>
+<region>
+	<opcode name="region_label" value="V01" />
+	<opcode name="sample" value="CrashClang.ogg" />
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="80" />
+	<opcode name="amp_velcurve_80" value="1" />
+	<opcode name="offset_oncc98" value="475" />
+</region>
+<region>
+	<opcode name="region_label" value="V02" />
+	<opcode name="sample" value="CrashClang#1.ogg" />
+	<opcode name="lovel" value="81" />
+	<opcode name="hivel" value="100" />
+	<opcode name="amp_velcurve_100" value="1" />
+	<opcode name="offset_oncc98" value="558" />
+</region>
+<region>
+	<opcode name="region_label" value="V03" />
+	<opcode name="sample" value="CrashClang#2.ogg" />
+	<opcode name="lovel" value="101" />
+	<opcode name="hivel" value="110" />
+	<opcode name="amp_velcurve_110" value="1" />
+	<opcode name="offset_oncc98" value="584" />
+</region>
+<region>
+	<opcode name="region_label" value="V04" />
+	<opcode name="sample" value="CrashClang#3.ogg" />
+	<opcode name="lovel" value="111" />
+	<opcode name="hivel" value="120" />
+	<opcode name="amp_velcurve_120" value="1" />
+	<opcode name="offset_oncc98" value="222" />
+</region>
+<region>
+	<opcode name="region_label" value="V05" />
+	<opcode name="sample" value="CrashClang#4.ogg" />
+	<opcode name="lovel" value="121" />
+	<opcode name="hivel" value="127" />
+	<opcode name="amp_velcurve_127" value="1" />
+	<opcode name="offset_oncc98" value="417" />
+</region>
+<group>
+	<opcode name="key" value="52" />
+	<opcode name="group" value="19" />
+	<opcode name="off_by" value="20" />
+	<opcode name="group_volume" value="-7.7" />
+	<opcode name="group_label" value="Tip" />
+</group>
+<region>
+	<opcode name="region_label" value="V01" />
+	<opcode name="sample" value="CrashTip.ogg" />
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="70" />
+	<opcode name="amp_velcurve_70" value="1" />
+	<opcode name="offset_oncc98" value="452" />
+</region>
+<region>
+	<opcode name="region_label" value="V02" />
+	<opcode name="sample" value="CrashTip#1.ogg" />
+	<opcode name="lovel" value="71" />
+	<opcode name="hivel" value="95" />
+	<opcode name="amp_velcurve_95" value="1" />
+	<opcode name="offset_oncc98" value="624" />
+</region>
+<region>
+	<opcode name="region_label" value="V03" />
+	<opcode name="sample" value="CrashTip#2.ogg" />
+	<opcode name="lovel" value="96" />
+	<opcode name="hivel" value="110" />
+	<opcode name="amp_velcurve_110" value="1" />
+	<opcode name="offset_oncc98" value="646" />
+</region>
+<region>
+	<opcode name="region_label" value="V04" />
+	<opcode name="sample" value="CrashTip#3.ogg" />
+	<opcode name="lovel" value="111" />
+	<opcode name="hivel" value="127" />
+	<opcode name="amp_velcurve_127" value="1" />
+	<opcode name="offset_oncc98" value="455" />
+</region>
+<group>
+	<opcode name="key" value="61" />
+	<opcode name="group" value="20" />
+	<opcode name="ampeg_sustain" value="0" />
+	<opcode name="group_label" value="choke" />
+</group>
+<region>
+	<opcode name="sample" value="*silence" />
+</region>
